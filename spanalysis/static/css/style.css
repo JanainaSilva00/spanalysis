@@ -1,0 +1,34 @@
+.cursos-main {
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+}
+
+.cursos-main div {
+    padding: 12px;
+    text-align: center;
+}
+
+.cursos-main div .inner {
+    padding: 50px 5px;
+    background: #3f6ad8;
+    border-radius: 8px;
+}
+.cursos-main .inner p {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+}
+.cursos-main a {
+    text-decoration: none;
+}
+.cursos-main .inner.dif {
+    background: radial-gradient(circle 248px at center, #3e2ab5 0%, #040797 47%, #3a00ec 100%) !important;
+}
+.widget-content .widget-numbers{
+    font-weight: bold;
+    font-size: 23px;
+    display: block;
+    text-transform: uppercase;
+}

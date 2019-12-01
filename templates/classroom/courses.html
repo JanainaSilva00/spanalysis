@@ -4,7 +4,39 @@
 
 
 {% block content %}
-    <div>
-        <p>Classroom Courses</p>
+
+    <div class="row cursos-main">
+            
+        <div class="col-md-6">
+                <div class="card mb-12 widget-content bg-arielle-smile">
+                        <div class="widget-content-wrapper text-white">                
+                            <div class="widget-content-right">
+                                <a href="{% url 'classroom/classes' %}" class="widget-numbers text-white">
+                                    <span>Engenharia de Software I</span></a>
+                            </div>
+                        </div>
+                    </div>
+        </div>
+        <div class="col-md-6">
+                <div class="card mb-12 widget-content bg-arielle-smile">
+                        <div class="widget-content-wrapper text-white">                
+                            <div class="widget-content-right">
+                                <a href="{% url 'classroom/classes' %}" class="widget-numbers text-white">
+                                    <span>Engenharia de Software II</span></a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="col-md-6">
+                    <div class="card mb-12 widget-content bg-arielle-smile">
+                            <div class="widget-content-wrapper text-white">                
+                                <div class="widget-content-right">
+                                    <a href="{% url 'classroom/classes' %}" class="widget-numbers text-white">
+                                        <span>Engenharia de Software III</span></a>
+                                </div>
+                            </div>
+                        </div>  
+                </div>
+        
     </div>
 {% endblock %}

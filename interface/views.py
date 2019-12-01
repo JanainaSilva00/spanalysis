@@ -40,4 +40,5 @@ def account_save(request):
 
     return redirect('classroom/account')
         
-    
+def classes(request):
+    return render(request, 'classroom/classes.html')
