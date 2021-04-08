@@ -1,4 +1,4 @@
-Django==2.2.4
+Django==2.2.20
 httplib2==0.13.1
 mysqlclient==1.4.4
 oauth2client==4.1.3
